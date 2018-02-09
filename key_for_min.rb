@@ -3,6 +3,6 @@
 
 def key_for_min_value(names)
 names = {:blake => 500, :ashley => 2, :adam => 1}
-names.sort { |name, number| number }.first
+names.values.sort { |key, value| value }.first
 
 end
